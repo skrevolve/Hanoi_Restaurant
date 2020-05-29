@@ -1,1 +1,1 @@
-# HANOI Project (베트남 식당 사이트)
+# Hanoi Restaurant (베트남 식당 사이트)
