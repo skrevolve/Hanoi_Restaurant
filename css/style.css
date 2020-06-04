@@ -1,0 +1,281 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+/*배너 시작*/
+.banner{
+	margin:0 auto;
+	width:100%;
+	height:600px;
+	
+}
+
+
+
+div.inner{
+	width:1200px;
+	margin:0px auto;
+}
+div.head li,div.head2 li,ul.box1 > li{
+	display:inline-block;
+}
+div.head li a,div.head2 li a,ul.box1 > li >a{
+	display:block;
+}
+div.head li a{
+	width:130px;
+	color:#0073e6;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	font-size:15px;
+}
+div.head li:hover>a{
+	color:#004d99
+}
+div.head ul:first-child>li{
+	border-left:1px solid #e6e6e6;
+}
+div.head ul{
+	text-align:right;
+}
+div.head2{
+	background-color:Crimson;
+	height:80px;
+}
+div.nav > ul > li > a{
+	color:white;
+	text-decoration:none;
+	margin: 0px 10px;
+	font-size:15px;
+	line-height:80px;
+}
+
+h1.logo img{
+	width:200px;
+	height:auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+br{
+	clear:both;
+}
+ul.box1 a{
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+	border:2px solid white;
+	border-radius:10px;
+	margin-top:10px;
+	width:100px;
+	text-align:center;
+}
+ul.box1 li:hover>a{
+	background-color:GhostWhite;
+	color:black;
+}
+#contentsarea div.inner1{
+	padding-top:30px;
+	width:1200px;
+	margin:0px auto;
+}
+
+div.con2{
+	width:550px;
+	float:left;
+	margin-right:40px;
+	display:block;
+}
+div.con3{
+	width:600px;
+	float:right;
+	margin-bottom:50px;
+}
+div.con4{
+	width:600px;
+	float:left;
+	margin-top:50px;
+}
+div.con5{
+	width:200px;
+	height:300px;
+	float:left;
+	margin-bottom:10px;
+	margin-left:300px;
+	margin-top:10px;
+}
+div.con6{
+	width:300px;
+	height:80px;
+	float:right;
+	background-color:Crimson ;
+	border-radius:10px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+div.con7{
+	width:300px;
+	height:80px;
+	float:right;
+	background-color:Crimson ;
+	border-radius:10px;
+	margin-bottom:50px
+}
+div.con2 table{
+	border:1px solid #e6e6e6;
+	width:550px;
+	border-radius:5px 5px 0px 0px;
+}
+div.con3 table{
+	border:1px solid #e6e6e6;
+	width:600px;
+	border-radius:5px 5px 0px 0px;
+}
+div.con4 table{
+	border:1px solid #e6e6e6;
+	width:800px;
+	height:300px;
+	border-radius:5px 5px 0px 0px;
+}
+div.con2 td.top,div.con3 td.top, div.con4 td.top{
+	border-bottom:1px solid #e6e6e6;
+}
+div.con2 img,div.con3 img, div.con4 td.top img{
+	width:20px;
+	height:auto;
+}
+div.con2 a.img, div.con3 a.img, div.con4 a.img{
+	float:right;
+}
+div.con2 td.top, div.con3 td.top, div.con4 td.top{
+	height:70px;
+	background-color:#f2f2f2;
+	border-radius:5px 5px 0px 0px;
+}
+div.con2 td.top a,div.con3 td.top a, div.con4 td.top a{
+	color:DodgerBlue;
+	text-decoration:none;
+	margin:0px 20px;
+}
+div.con2 td.bottom a, div.con3 td.bottom a{
+	display:block;
+	color:DodgerBlue;
+	text-decoration:none;
+	border-bottom:1px solid #e6e6e6;
+	margin:0px 20px;
+	padding:10px 0px;
+}
+div.con2 td.bottom:last-child > a, div.con3 td.bottom:last-child > a{
+	margin-bottom:10px;
+}
+div.con2 td.bottom,div.con3 td.bottom{
+	padding:20px;
+}
+div.con4 td.bottom img {
+	width:150px;
+	height:112px;
+	display:inline-block;
+	margin: 0px 10px;
+}
+
+div.con5 table{
+	border:1px solid red;
+	width:300px;
+	height:300px;
+	border-radius:10px 10px 5px 5px;
+	background-color:Crimson ;
+}
+div.con5 th{
+	height:70px;
+}
+div.con5 p{
+	text-align:center;
+}
+div.con5 th p{
+	color:white;
+	font-size:25px;
+	font-weight:nomal;
+}
+div.con5 td p{
+	color:#eb2d53;
+	font-size:50px;
+}
+div.con5 td span{
+	color:#4d9900;
+	text-align:center;
+}
+div.con5 td p.font{
+	color:#4d9900;
+	font-size:20px;
+}
+div.con5 span{
+	font-weight:bold;
+}
+div.con5 td{
+	padding:0px 20px;
+	background-color:white;
+}
+hr{
+	margin:10px 0px;
+}
+div.con6 p{
+	line-height:80px;
+	text-align:center;
+	font-size:35px;
+	color:white;
+}
+div.img{
+	width:150px;
+	height:150px;
+	display:inline-block;
+}
+div.con4 p{
+	text-align:center;
+	font-size:15px;
+}
+div.con4 p.won{
+	color:red;
+}
+
+#footer{
+	width:100%
+	
+}
+#footer div.inner {
+	width:1200px;
+	margin:0px auto;
+}
+div.guide li,div.link li{
+	display:inline-block;
+}
+div.guide a, div.link a{
+	display:block;
+	text-decoration:none;
+	color:DodgerBlue;
+}
+div.guide a{
+	margin:0px 20px;
+}
+div.link{
+	float:right;
+}
+div.guide{
+	text-align:center;
+	padding-top:50px;
+}
+div.link a{
+	margin:0px 5px;
+}
+#footer p{
+	text-align:center;
+	font-size:15px;
+}
+
+

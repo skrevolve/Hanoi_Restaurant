@@ -1,0 +1,22 @@
+<?php
+    $num = $_GET["num"];
+    $page = $_GET["page"];
+
+    $subject = $_POST["subject"];
+    $content = $_POST["content"];
+          
+    $con = mysqli_connect("localhost", "sukyu0919", "SKlim478359!", "sukyu0919");
+    $sql = "update reservation set subject='$subject', content='$content' ";
+    $sql .= " where num=$num";
+    mysqli_query($con, $sql);
+
+    mysqli_close($con);     
+
+    echo "
+	      <script>
+	          location.href = 'reservation_list.php?page=$page';
+	      </script>
+	  ";
+?>
+
+   

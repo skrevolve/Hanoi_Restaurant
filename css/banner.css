@@ -1,0 +1,51 @@
+
+
+.slide_box{
+    overflow:hidden;/*부모영역을 벗어난 이미지 숨김*/
+    width:1400px;
+    height:600px;
+    margin:0 auto;
+    
+    position:relative;
+}
+
+.slide_box > .slide{
+    width:4200px;
+    height:600px;
+}
+
+.slide > div{
+width:1400px;
+height:600px;
+float:left;
+}
+.slide > div > img{
+    width:100%;
+    height:615px;
+}
+
+
+/*양쪽화살표 방향버튼 서식*/
+.ctrl_btn01{}
+.ctrl_btn01 > i.fas{
+    position:absolute;
+    top:45%;
+    font-size:50px;
+    color:#fff;
+    background-color:rgba(0,0,0,.7);
+    cursor: pointer;
+   
+}
+.fa-angle-left{left:0px;}
+.fa-angle-right{right:0px;}
+
+/*플레이, 스탑버튼 서식*/
+.ctrl_btn02{
+    position:absolute;
+    right:10px; bottom:10px;
+      padding:4px 6px;
+    cursor: pointer;
+}
+
+
+
